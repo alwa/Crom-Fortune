@@ -30,6 +30,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
     buildFeatures {
+        compose = true
         viewBinding = true
     }
     kotlinOptions {
